@@ -1,0 +1,28 @@
+<div class="container-lg">
+    
+<div class="d-flex flex-column text-center">
+  <h2>Leaves Remainning for {$name} in year {$year}: </h2>
+  <h1>({$totalAllowed} - {$total} = <span class="font-weight-bold">{$remainning}</span> ) Days</h1>
+</div>
+
+<p class="h5">Details</p>
+<table class="table table-striped table-bordered table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Start Date</th>
+            <th scope="col">Number of Days</th>
+            <th scope="col">Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        {$repititiveRows}
+    </tbody>
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Total</th>
+            <th colspan="2" scope="col">{$total}</th>
+        </tr>
+    </thead>
+</table>
+<br>
+</div>

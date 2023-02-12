@@ -1,0 +1,30 @@
+<!-- Form to change name and year -->
+<div class="container-lg">
+    <div class="card text-center bg-light border-secondary">
+      <div class="card-body">
+        <p>After Login if needed to change the name or year change it here and submit.</p>
+        <form class="align-items-center">
+          <div class="form-row align-items-center d-flex justify-content-center">
+            <div class="col-auto">
+              <label class="col-form-label mb-2" for="name">Name</label>
+            </div>
+            <div class="col-auto">
+              <input type="text" class="form-control mb-2" id="name" name="name" value="{$name}">
+            </div>
+            <div class="col-auto">
+              <label class="col-form-label mb-2" for="year">Year</label>
+            </div>
+            <div class="col-auto">
+                <select class="custom-select mb-2" id="year" name="year">
+                    {$repititiveRows}
+                </select>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-dark mb-2">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <br>
+</div>

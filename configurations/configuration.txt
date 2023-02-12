@@ -1,0 +1,10 @@
+totalAllowed=40
+emailsExcluded=excludedEmail@test.com
+calendarId=testCalandar@group.calendar.google.com
+publicHolidayLabel=SL Public Holiday
+supportedYears=2021,2022,2023
+isMaintenanceMode=false
+modalToInclude=NONE
+wordsToIgnore=lieu,wfh,remote
+wordsImplyingHalf=1st,1 st,first,2nd,2 nd,second,secnd,fist,frist,secon
+adminEmail=admin@test.com
